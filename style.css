@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;1,300&family=Roboto:wght@300&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
-    background-color: lightgray;
+    background-color: bisque;
     height: 50px;
 }
 
@@ -104,4 +105,20 @@ nav>a {
 
 .choosed_element {
     border: 3px solid black;
+}
+
+.posts_block {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.posts_block-container h2 {
+    text-align: center;
+}
+
+.posts_block-container>* {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightblue;
 }
